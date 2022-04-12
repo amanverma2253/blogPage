@@ -18,7 +18,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://amanv:Aman2253@cluster0.7dve6.mongodb.net/blogDB");
+mongoose.connect("mongodb+srv://amanv:<password>cluster0.7dve6.mongodb.net/blogDB");
 
 let posts = [];
 
